@@ -1,0 +1,31 @@
+ALGORITHM 
+VAR
+    phrase, i, mot, verb, voyelles: INTEGER
+BEGIN
+    Write("Enter une phrase: ")
+    Read(phrase)
+
+    mot:= 0
+    verb:= 1
+    voyelles:= 0
+
+    FOR i FROM 0 TO i < 1 STEP 1  DO
+        mot:= mot + 1
+        Write("mot")
+    END_FOR
+    IF (i = "") THEN
+        Write("")
+    END_IF
+    IF (i = "a") THEN
+        Write("a")
+    END_IF
+    IF (i = "e") THEN
+        Write("e")
+    END_IF
+    IF (i = "o") THEN
+        Write("o")
+    END_IF
+    IF (i = "y") THEN
+        Write("y")
+    END_IF
+END
